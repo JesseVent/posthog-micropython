@@ -1,5 +1,9 @@
 # posthog-micropython
 
+<p align="center">
+  <img src="assets/mascot.png" width="340" alt="A mustachioed hedgehog riding a ball python while checking PostHog on an ESP32">
+</p>
+
 Minimal PostHog client for MicroPython (ESP32 and friends). Single file,
 speaks the same `/batch/` wire format as [posthog-python](https://github.com/PostHog/posthog-python) —
 see its [capture spec](https://github.com/PostHog/sdk-specs) for what lands in the product.
