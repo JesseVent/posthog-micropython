@@ -6,7 +6,7 @@ import json
 import sys
 import os
 
-sys.path.insert(0, "/Users/jvent/Dev/hardware-and-iot/posthog-micropython")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 os.environ["_STUB"] = "1"
 
 SENT = []
