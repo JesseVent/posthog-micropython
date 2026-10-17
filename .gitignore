@@ -1,0 +1,6 @@
+# runtime artifacts from tests
+.posthog_device_id
+_persisttmp/
+micropython.log
+*.mpy
+.micropython/
